@@ -1,0 +1,180 @@
+/*Reset*/
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+  margin: 0px;
+  padding: 0px;
+  font-weight: initial;
+}
+
+span{
+  font-size: 1rem;
+}
+
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+* {
+  box-sizing: border-box;
+  color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Container */
+.container{
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Menu */
+.menu-nav ul{
+  display: flex;
+  margin-top: 40px;
+}
+
+.menu-nav ul li{
+  margin: 0 16px 0 0
+}
+
+.menu-nav ul li a{
+  padding: 10px 12px;
+  background-color: beige;
+  border-radius: 4px;
+}
+
+/* Conteúdo sobre */
+.sobre {
+  display:flex;
+  gap: 4rem;
+  margin-top: 60px;
+  align-items: center;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  margin-bottom: 120px;
+}
+
+.sobre h1 {
+  margin-bottom: 20px;
+  background-color: beige;
+  border-radius: 8px;
+}
+
+.sobre-conteudo p{
+  margin-bottom: 24px;
+}
+
+.sobre-conteudo span{
+  padding: 4px 6px;
+  background-color: beige;
+  border-radius: 4px;
+}
+
+/*Formação*/
+.formacao{
+  font-size: 1.25rem;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.formacao h1{
+  margin-bottom: 20px;
+}
+
+/*Portfolio*/
+.portfolio{
+  font-size: 1.25rem;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.portfolio a{
+  margin-top: 20px;
+  padding: 10px 16px;
+  background-color: beige;
+  border-radius: 8px;
+  transition: .2s;
+}
+
+.portfolio a:hover{
+  background-color: burlywood;
+}
+
+/*Contato*/
+.contato{
+  margin-bottom: 120px;
+}
+
+.contato h1{
+  margin-bottom: 40px;
+}
+
+.contato form{
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 4px;
+}
+
+.contato textarea{
+  width: 100%;
+  height: 120px;
+  margin-bottom: 40px;
+  border: 4px solid burlywood;
+}
+
+.contato input{
+  border: 4px solid burlywood;
+  height: 32px;
+}
+
+.contato button{
+  border: none;
+  background-color: burlywood;
+  border-radius: 4px;
+  height: 20px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.contato button:hover{
+  background-color: blanchedalmond;
+}
+
+/* Animação mudar cor dos adesivos */
+.animate{
+  background-color: burlywood !important;
+  transition: .2s;
+}
